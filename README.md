@@ -1,5 +1,5 @@
 # Implementation for PESA-Net
-The code is about my core model (Including, the PESA-Net architecture, PESA Block, SSEU Module, weighted-8-point, residual computation, et al.). we will upload all the code after the paper is accepted. ^_^
+The code is about my core model (Including, the PESA-Net architecture, PESA Block, SSEU Module, weighted 8-point, residual computation, et al.). we will upload all the code after the paper is accepted. ^_^
 
 
 <div align=center><img src=https://github.com/Big-elite/PESA-Net/blob/master/Fig1.png width="528" height="392"> </div>
