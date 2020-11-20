@@ -7,7 +7,7 @@ from torch.nn import Conv2d, Module, Linear, BatchNorm2d, ReLU
 main network-----PESA_Net
 '''
 
-def batch_episym(x1, x2, F):  # This code are very important
+def batch_episym(x1, x2, F):  # This code is very important
     batch_size, num_pts = x1.shape[0], x1.shape[1]
     x1 = torch.cat([x1, x1.new_ones(batch_size, num_pts,1)], dim=-1).reshape(batch_size, num_pts,3,1)
     x2 = torch.cat([x2, x2.new_ones(batch_size, num_pts,1)], dim=-1).reshape(batch_size, num_pts,3,1)
@@ -137,8 +137,8 @@ class PESA_Block(nn.Module):     #config.split, config.group
     def forward(self, x):
         out = self.conv1(x)
         out = self.in1(out)
-        out = self.bn1(out)  #  nn.BatchNorm2d
-        out = self.relu(out) # nn.ReLU
+        out = self.bn1(out) 
+        out = self.relu(out)
         out = self.conv2(out)
         if self.radix == 0:
             out = self.in2(out)
