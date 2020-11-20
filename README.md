@@ -3,6 +3,6 @@ The code is about my core model (Including, the PESA-Net architecture, PESA Bloc
 
 ![img](https://github.com/Big-elite/PESA-Net/blob/master/Fig1.png)
 
-**Our network is very effective!!!**
+**PESA-Net is very effective!!!**
 
-As shown above, comparing with other state-of-the-art approaches on YFCC100M unknown scenes, deep MLP with SSEU module (called PESA-Net) introduces very few additional parameters and negligible computations while bringing notable performance gain.
+As shown above, comparing with other state-of-the-art approaches on YFCC100M unknown scenes, PESA-Net introduces very few additional parameters and negligible computations while bringing notable performance gain.
